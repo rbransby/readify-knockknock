@@ -9,6 +9,6 @@
   "author": "Rob Bransby",
   "license": "ISC",
   "dependencies": {
-    "soap-server": "^0.1.0"
+    "soap-server": "git+https://github.com/rbransby/node-soap-server.git"
   }
 }
