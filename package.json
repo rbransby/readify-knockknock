@@ -1,0 +1,14 @@
+{
+  "name": "readify-knockknock",
+  "version": "0.0.1",
+  "description": "Solution for Readify KnockKnock puzzle",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rob Bransby",
+  "license": "ISC",
+  "dependencies": {
+    "soap-server": "^0.1.0"
+  }
+}
