@@ -3,7 +3,7 @@
 class TestService {
     constructor()
     {
-        console.log(this.Test1("rob"));
+        
     }
     
     Test1(name) {
