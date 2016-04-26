@@ -14,41 +14,41 @@ class ReadifyKnockKnockService
     }
     
     // Returns the given number in the Fibonacci sequence.
-    FibonacciNumber(sequenceNumber)
+    FibonacciNumber(n)
     {
-        if (sequenceNumber > 92 || sequenceNumber < -92)
+        if (n > 92 || n < -92)
         {
-            throw new SoapServiceException('s:Client', 'Sequence Number > 92 or < -92 will cause 64bit integer overflow', 'ArgumentOutOfRangeException');
+            throw new SoapServiceException('s:Client', 'Fibonacci number > 92 or < -92 will cause 64bit integer overflow', 'ArgumentOutOfRangeException');
         }
         let fibonacciNumber = 0;
         let nextFibonacciNumber = 1;
-        for (let i = 0; i<Math.abs(sequenceNumber); i++)
+        for (let i = 0; i<Math.abs(n); i++)
         {
             let oldFibonacciNumber = fibonacciNumber;
             fibonacciNumber = nextFibonacciNumber;
             nextFibonacciNumber = oldFibonacciNumber + fibonacciNumber;            
         }
         
-        if (sequenceNumber < 0)
+        if (n < 0)
         {
-            fibonacciNumber = fibonacciNumber * Math.pow(-1, sequenceNumber+1);
+            fibonacciNumber = fibonacciNumber * Math.pow(-1, n+1);
         }
         return fibonacciNumber;
     }
     
     // return "Equilateral", "Isosceles", "Scalene", "Error"
-    WhatShapeIsThis(sideA, sideB, sideC)
+    WhatShapeIsThis(a, b, c)
     {
         // ensure no sides are < 0 and that we have a triangle 
         // using triangle inequality theorem
-        if (sideA > 0 && sideB > 0 && sideC > 0
-        && (sideA + sideB > sideC) && (sideA + sideC > sideB) && (sideB + sideC > sideA))
+        if (a > 0 && b > 0 && c > 0
+        && (a + b > c) && (a + c > b) && (b + c > a))
         {
-            if (sideA == sideB && sideB == sideC)
+            if (a == b && b == c)
             {
                 return 'Equilateral';
             }
-            else if (sideA == sideB || sideA == sideC || sideB == sideC)
+            else if (a == b || a == c || b == c)
             {
                 return 'Isosceles';
             }
@@ -62,24 +62,24 @@ class ReadifyKnockKnockService
     }
     
     // returns string
-    ReverseWords(words)
+    Reverses(s)
     {
-        if (words == "undefined")
+        if (s == "undefined")
         {
-            throw new SoapServiceException('s:Client', 'words parameter cannot be null', 'ArgumentOutOfRangeException');
+            throw new SoapServiceException('s:Client', 'Parameter "s" cannot be null', 'ArgumentOutOfRangeException');
         }
-        let wordsArray = words.split(' ');
-        let reversedWords = [];
-        for (let word of wordsArray)
+        let sArray = s.split(' ');
+        let reverseds = [];
+        for (let word of sArray)
         {
             let reversedWord = '';
             for (let i = word.length-1; i >= 0; i--)
             {
                 reversedWord += word[i];
             }
-            reversedWords.push(reversedWord);
+            reverseds.push(reversedWord);
         }
-        return reversedWords.join(' ');
+        return reverseds.join(' ');
     }
 }
 
