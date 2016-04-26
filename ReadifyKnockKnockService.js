@@ -64,7 +64,7 @@ class ReadifyKnockKnockService
     // returns string
     ReverseWords(s)
     {
-        if (s == "undefined")
+        if (s == "undefined" || s == null)
         {
             throw new SoapServiceException('s:Client', 'Parameter "s" cannot be null', 'ArgumentOutOfRangeException');
         }
