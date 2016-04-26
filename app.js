@@ -4,7 +4,7 @@ var soap = require('soap-server');
 var TestService = require('./TestService');
 var ReadifyKnockKnockService = require('./ReadifyKnockKnockService');
 
-var soapServer = new soap.SoapServer({tns: 'knockknock.readify.net'});
+var soapServer = new soap.SoapServer({tns: 'KnockKnock.readify.net'});
 var soapService = soapServer.addService('testService', new TestService());
 var readifyKnockKnock = soapServer.addService('readifyKnockKnockService', new ReadifyKnockKnockService());
 
@@ -26,4 +26,4 @@ reverseWordsOperation.setInputType('words', {type: 'string'});
 reverseWordsOperation.setOutputType('string');
 reverseWordsOperation.addFault('ArgumentNullException');
 
-soapServer.listen(8080, '127.0.0.1');
+soapServer.listen(8080, '192.168.1.5');
