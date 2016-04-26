@@ -4,7 +4,7 @@ var soap = require('soap-server');
 var TestService = require('./TestService');
 var ReadifyKnockKnockService = require('./ReadifyKnockKnockService');
 
-var soapServer = new soap.SoapServer();
+var soapServer = new soap.SoapServer({tns: 'knockknock.readify.net'});
 var soapService = soapServer.addService('testService', new TestService());
 var readifyKnockKnock = soapServer.addService('readifyKnockKnockService', new ReadifyKnockKnockService());
 
