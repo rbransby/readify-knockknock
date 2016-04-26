@@ -21,9 +21,9 @@ whatShapeIsThisOperation.setInputType('b', {type: 'number'});
 whatShapeIsThisOperation.setInputType('c', {type: 'number'});
 whatShapeIsThisOperation.setOutputType('string');
 
-var reversesOperation = readifyKnockKnock.getOperation('Reverses');
-reversesOperation.setInputType('s', {type: 'string'});
-reversesOperation.setOutputType('string');
-reversesOperation.addFault('ArgumentNullException');
+var reverseWordsOperation = readifyKnockKnock.getOperation('ReverseWords');
+reverseWordsOperation.setInputType('s', {type: 'string'});
+reverseWordsOperation.setOutputType('string');
+reverseWordsOperation.addFault('ArgumentNullException');
 
 soapServer.listen(8080, '127.0.0.1');

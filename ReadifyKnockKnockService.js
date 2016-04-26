@@ -62,7 +62,7 @@ class ReadifyKnockKnockService
     }
     
     // returns string
-    Reverses(s)
+    ReverseWords(s)
     {
         if (s == "undefined")
         {
