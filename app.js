@@ -3,9 +3,10 @@
 // dependencies
 var soap = require('soap-server');
 var ReadifyKnockKnockService = require('./ReadifyKnockKnockService');
+var Config = require('./config.json');
 
 // service configuration
-var soapServer = new soap.SoapServer({tns: 'KnockKnock.readify.net'});
+var soapServer = new soap.SoapServer({tns: Config.tns});
 var readifyKnockKnock = soapServer.addService('readifyKnockKnockService', new ReadifyKnockKnockService());
 
 // operation and parameter configuratino
@@ -28,4 +29,5 @@ reverseWordsOperation.setOutputType('string');
 reverseWordsOperation.addFault('ArgumentNullException');
 
 // start the server and listen for requests
-soapServer.listen(8080, '192.168.1.5');
+soapServer.listen(Config.port, Config.host);
+console.log(`Listening on ${Config.host} port ${Confit.port}`);

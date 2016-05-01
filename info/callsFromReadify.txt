@@ -1,0 +1,137 @@
+
+operation: ReverseWords requested
+{"ReverseWords":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"s":[{"$":{"a:nil":"true","xmlns:a":"http://www.w3.org/2001/XMLSchema-instance"}}]}]}
+operation: ReverseWords requested
+{"ReverseWords":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"s":["cat"]}]}
+operation: ReverseWords requested
+{"ReverseWords":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"s":["trailing space "]}]}
+operation: ReverseWords requested
+{"ReverseWords":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"s":["Bang!"]}]}
+operation: ReverseWords requested
+{"ReverseWords":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"s":[""]}]}
+operation: ReverseWords requested
+{"ReverseWords":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"s":["cat and dog"]}]}
+operation: ReverseWords requested
+{"ReverseWords":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"s":["two  spaces"]}]}
+operation: ReverseWords requested
+{"ReverseWords":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"s":[" leading space"]}]}
+operation: ReverseWords requested
+{"ReverseWords":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"s":["Capital"]}]}
+operation: ReverseWords requested
+{"ReverseWords":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"s":["This is a snark: ⸮"]}]}
+operation: ReverseWords requested
+{"ReverseWords":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"s":["P!u@n#c$t%u^a&t*i(o)n"]}]}
+operation: ReverseWords requested
+{"ReverseWords":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"s":["detartrated kayak detartrated"]}]}
+operation: ReverseWords requested
+{"ReverseWords":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"s":["¿Qué?"]}]}
+operation: ReverseWords requested
+{"ReverseWords":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"s":["  S  P  A  C  E  Y  "]}]}
+operation: ReverseWords requested
+{"ReverseWords":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"s":["!B!A!N!G!S!"]}]}
+operation: WhatIsYourToken requested
+{"WhatIsYourToken":[{"$":{"xmlns":"http://KnockKnock.readify.net"}}]}
+operation: FibonacciNumber requested
+{"FibonacciNumber":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"n":["-4"]}]}
+operation: FibonacciNumber requested
+{"FibonacciNumber":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"n":["-5"]}]}
+operation: FibonacciNumber requested
+{"FibonacciNumber":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"n":["0"]}]}
+operation: FibonacciNumber requested
+{"FibonacciNumber":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"n":["1"]}]}
+operation: FibonacciNumber requested
+{"FibonacciNumber":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"n":["-6"]}]}
+operation: FibonacciNumber requested
+{"FibonacciNumber":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"n":["3"]}]}
+operation: FibonacciNumber requested
+{"FibonacciNumber":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"n":["4"]}]}
+operation: FibonacciNumber requested
+{"FibonacciNumber":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"n":["5"]}]}
+operation: FibonacciNumber requested
+{"FibonacciNumber":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"n":["6"]}]}
+operation: FibonacciNumber requested
+{"FibonacciNumber":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"n":["7"]}]}
+operation: FibonacciNumber requested
+{"FibonacciNumber":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"n":["46"]}]}
+operation: FibonacciNumber requested
+{"FibonacciNumber":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"n":["47"]}]}
+operation: FibonacciNumber requested
+{"FibonacciNumber":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"n":["92"]}]}
+operation: FibonacciNumber requested
+{"FibonacciNumber":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"n":["2"]}]}
+operation: FibonacciNumber requested
+{"FibonacciNumber":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"n":["-3"]}]}
+operation: FibonacciNumber requested
+{"FibonacciNumber":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"n":["-2"]}]}
+operation: FibonacciNumber requested
+{"FibonacciNumber":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"n":["-1"]}]}
+operation: FibonacciNumber requested
+{"FibonacciNumber":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"n":["-92"]}]}
+operation: FibonacciNumber requested
+{"FibonacciNumber":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"n":["-47"]}]}
+operation: FibonacciNumber requested
+{"FibonacciNumber":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"n":["-46"]}]}
+operation: FibonacciNumber requested
+{"FibonacciNumber":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"n":["-7"]}]}
+operation: FibonacciNumber requested
+{"FibonacciNumber":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"n":["-93"]}]}
+operation: FibonacciNumber requested
+{"FibonacciNumber":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"n":["93"]}]}
+operation: FibonacciNumber requested
+{"FibonacciNumber":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"n":["-9223372036854775808"]}]}
+operation: FibonacciNumber requested
+{"FibonacciNumber":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"n":["-2147483648"]}]}
+operation: FibonacciNumber requested
+{"FibonacciNumber":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"n":["2147483647"]}]}
+operation: FibonacciNumber requested
+{"FibonacciNumber":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"n":["9223372036854775807"]}]}
+operation: WhatShapeIsThis requested
+{"WhatShapeIsThis":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"a":["0"],"b":["0"],"c":["0"]}]}
+operation: WhatShapeIsThis requested
+{"WhatShapeIsThis":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"a":["1"],"b":["1"],"c":["0"]}]}
+operation: WhatShapeIsThis requested
+{"WhatShapeIsThis":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"a":["1"],"b":["1"],"c":["2"]}]}
+operation: WhatShapeIsThis requested
+{"WhatShapeIsThis":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"a":["1"],"b":["0"],"c":["1"]}]}
+operation: WhatShapeIsThis requested
+{"WhatShapeIsThis":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"a":["2"],"b":["1"],"c":["1"]}]}
+operation: WhatShapeIsThis requested
+{"WhatShapeIsThis":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"a":["1"],"b":["2"],"c":["3"]}]}
+operation: WhatShapeIsThis requested
+{"WhatShapeIsThis":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"a":["1"],"b":["1"],"c":["2147483647"]}]}
+operation: WhatShapeIsThis requested
+{"WhatShapeIsThis":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"a":["1"],"b":["1"],"c":["1"]}]}
+operation: WhatShapeIsThis requested
+{"WhatShapeIsThis":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"a":["2"],"b":["2"],"c":["2"]}]}
+operation: WhatShapeIsThis requested
+{"WhatShapeIsThis":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"a":["2147483647"],"b":["2147483647"],"c":["2147483647"]}]}
+operation: WhatShapeIsThis requested
+{"WhatShapeIsThis":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"a":["2"],"b":["2"],"c":["3"]}]}
+operation: WhatShapeIsThis requested
+{"WhatShapeIsThis":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"a":["2"],"b":["3"],"c":["2"]}]}
+operation: WhatShapeIsThis requested
+{"WhatShapeIsThis":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"a":["3"],"b":["2"],"c":["2"]}]}
+operation: WhatShapeIsThis requested
+{"WhatShapeIsThis":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"a":["2"],"b":["3"],"c":["4"]}]}
+operation: WhatShapeIsThis requested
+{"WhatShapeIsThis":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"a":["3"],"b":["4"],"c":["2"]}]}
+operation: WhatShapeIsThis requested
+{"WhatShapeIsThis":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"a":["4"],"b":["2"],"c":["3"]}]}
+operation: WhatShapeIsThis requested
+{"WhatShapeIsThis":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"a":["4"],"b":["3"],"c":["2"]}]}
+operation: WhatShapeIsThis requested
+{"WhatShapeIsThis":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"a":["1"],"b":["2"],"c":["1"]}]}
+operation: WhatShapeIsThis requested
+{"WhatShapeIsThis":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"a":["-2147483648"],"b":["-2147483648"],"c":["-2147483648"]}]}
+operation: WhatShapeIsThis requested
+{"WhatShapeIsThis":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"a":["-1"],"b":["-1"],"c":["-1"]}]}
+operation: WhatShapeIsThis requested
+{"WhatShapeIsThis":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"a":["-1"],"b":["1"],"c":["1"]}]}
+operation: WhatShapeIsThis requested
+{"WhatShapeIsThis":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"a":["1"],"b":["-1"],"c":["1"]}]}
+operation: WhatShapeIsThis requested
+{"WhatShapeIsThis":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"a":["1"],"b":["1"],"c":["-1"]}]}
+operation: WhatShapeIsThis requested
+{"WhatShapeIsThis":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"a":["0"],"b":["1"],"c":["1"]}]}
+operation: WhatShapeIsThis requested
+{"WhatShapeIsThis":[{"$":{"xmlns":"http://KnockKnock.readify.net"},"a":["2147483647"],"b":["2147483647"],"c":["2147483647"]}]}
