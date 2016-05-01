@@ -68,8 +68,8 @@ class ReadifyKnockKnockService
         {
             throw new SoapServiceException('s:Client', 'Parameter "s" cannot be null', 'ArgumentOutOfRangeException');
         }
-        let sArray = s.split(' ');
-        let reverseds = [];
+        let wordsArray = s.split(' ');
+        let reversedWords = [];
         for (let word of sArray)
         {
             let reversedWord = '';
@@ -77,7 +77,7 @@ class ReadifyKnockKnockService
             {
                 reversedWord += word[i];
             }
-            reverseds.push(reversedWord);
+            reversedWords.push(reversedWord);
         }
         return reverseds.join(' ');
     }

@@ -1,13 +1,14 @@
 "use strict";
 
+// dependencies
 var soap = require('soap-server');
-var TestService = require('./TestService');
 var ReadifyKnockKnockService = require('./ReadifyKnockKnockService');
 
+// service configuration
 var soapServer = new soap.SoapServer({tns: 'KnockKnock.readify.net'});
-var soapService = soapServer.addService('testService', new TestService());
 var readifyKnockKnock = soapServer.addService('readifyKnockKnockService', new ReadifyKnockKnockService());
 
+// operation and parameter configuratino
 var whatIsYourTokenOperation = readifyKnockKnock.getOperation('WhatIsYourToken');
 
 var fibonacciNumberOperation = readifyKnockKnock.getOperation('FibonacciNumber');
@@ -26,4 +27,5 @@ reverseWordsOperation.setInputType('s', {type: 'string'});
 reverseWordsOperation.setOutputType('string');
 reverseWordsOperation.addFault('ArgumentNullException');
 
+// start the server and listen for requests
 soapServer.listen(8080, '192.168.1.5');
