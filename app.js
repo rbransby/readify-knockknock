@@ -26,4 +26,4 @@ reverseWordsOperation.setInputType('s', {type: 'string'});
 reverseWordsOperation.setOutputType('string');
 reverseWordsOperation.addFault('ArgumentNullException');
 
-soapServer.listen(8080, '127.0.0.1');
+soapServer.listen(8080, '192.168.1.5');

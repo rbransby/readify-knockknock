@@ -10,7 +10,7 @@ class ReadifyKnockKnockService
     // returns a guid
     WhatIsYourToken()
     {
-        return "00000000-0000-0000-0000-000000000000";
+        return "84372695-35ef-4bf8-b23a-31f10b65db21";
     }
     
     // Returns the given number in the Fibonacci sequence.
